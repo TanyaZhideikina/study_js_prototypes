@@ -1,0 +1,5 @@
+git init
+git add .
+git commit -m "lern prototypes in javasccript"
+git remote add jsproto https://github.com/TanyaZhideikina/study_js_prototypes.git
+git push -u jsproto master

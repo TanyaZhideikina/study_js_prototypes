@@ -16,7 +16,6 @@ Animal.prototype.stop = function(){
     alert(this.name+' stand');
 };
 
-
 ////second object - Rabbit
 ////Animal is prototype for Rabbit
 Rabbit.prototype.__proto__ = Animal.prototype;

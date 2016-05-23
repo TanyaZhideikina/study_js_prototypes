@@ -31,3 +31,7 @@ Rabbit.prototype.jump = function(){
     this.speed++;
     alert( alert( this.name + ' jump, speed ' + this.speed ););
 }
+
+
+/////// instead Rabbit.prototype Object.create(Animal.prototype)
+////Rabbit.prototype = new Animal();
